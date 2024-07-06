@@ -1,0 +1,47 @@
+name: test
+title: test
+description: A Blocklet Server blocklet
+keywords:
+  - blocklet
+  - vue
+group: static
+did: z2qaCa5TFB2xREdESU9q4X76hXKFYGTZNuLYT
+main: dist
+author:
+  name: melon
+  email: 18616763851@qq.com
+repository:
+  type: git
+  url: git+https://github.com/blocklet/create-blocklet.git
+specVersion: 1.2.8
+version: 0.1.0
+logo: logo.png
+files:
+  - logo.png
+  - screenshots
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: "*"
+    port: BLOCKLET_PORT
+    protocol: http
+community: ""
+documentation: ""
+homepage: ""
+license: ""
+payment:
+  price: []
+  share: []
+timeout:
+  start: 60
+requirements:
+  server: ">=1.6.29"
+  os: "*"
+  cpu: "*"
+scripts:
+  dev: npm run start
+environments: []
+capabilities: {}
+screenshots: []
+components: []
